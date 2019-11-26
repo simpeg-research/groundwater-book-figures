@@ -7,12 +7,8 @@
 [![License](https://img.shields.io/github/license/simpeg-research/groundwater-book-figures.svg)](https://github.com/simpeg-research/groundwater-book-figures/blob/master/LICENSE)
 [![SimPEG](https://img.shields.io/badge/powered%20by-SimPEG-blue.svg)](http://simpeg.xyz)
 
-Notebooks and python scripts to reproduce the figures shown in
-"[Open source software for simulations and inversions of airborne electromagnetic data](https://doi.org/10.1080/08123985.2019.1583538),"
-published in the AEM 2018 special edition of Exploration Geophysics.
 
-
-<img src="figures/currents.png" width=40% align="middle">
+<img src="figures/borehole_DC_currents.png" width=40% align="middle">
 
 ## Summary
 
@@ -22,15 +18,7 @@ Here we run 2D DC resistivity simulations to generate images of the currents, se
 
 There is 1 notebook in this repository:
 
-- [1_TEM_VerticalConductor_2D_forward.ipynb](/notebooks/1_TEM_VerticalConductor_2D_forward.ipynb) : runs a forward simulation of an airborne electromagnetic simulation over a conductive plate. This notebook was used to generate figures 1-4 in the abstract
-- [2_TEM_VerticalConductor_1D_stitched_inversion.ipynb](/notebooks/2_TEM_VerticalConductor_1D_stitched_inversion.ipynb) : Using the forward simulated data from the previous notebook, we run 1D inversions over the plate (Figure 5 in the abstract).
-- [3_TEM_VerticalConductor_2D_inversion_load.ipynb](/notebooks/3_TEM_VerticalConductor_2D_inversion_load.ipynb) : This notebook loads the 2D inversion results over the plate (Figure 6 in the abstract). The 2D inversion was run using the script [2dinv_smooth.py](/notebooks/2d_inv_smooth/2dinv_smooth.py).
-- [4_TEM_VerticalConductor_parametric_inversion_load.ipynb](/notebooks/4_TEM_VerticalConductor_parametric_inversion_load.ipynb) : This notebook loads the 2D parametric inversion inversion results (Figure 7 in the abstract). The 2D parametric inversion was run using the script [2dinv_parametric.py](/notebooks/2d_inv_parametric/2d_inv_parametric.py) .
-
-In addition, there are two notebooks used for demos in the workshop [3D EM Modelling and Inversion with Open Source Resources](https://courses.geosci.xyz/aem2018):
-
-- [TEM_VerticalConductor_2D_forward.ipynb](/demo_notebooks/TEM_VerticalConductor_2D_forward.ipynb) : runs a forward simulation of an airborne electromagnetic simulation over a conductive plate. Similar to that in the notebooks directory.
-- [TDEM_1D_inversion.ipynb](/demo_notebooks/TDEM_1D_inversion.ipynb): In this notebook, we run a 1D inversion for a single airborne time domain EM sounding
+- [DC_currents.ipynb](/notebooks/DC_currents.ipynb) : runs DC surface and borehole surveys and generates figures of the currents, and sensitivities
 
 ## Usage
 
