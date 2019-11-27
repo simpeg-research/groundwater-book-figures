@@ -3,7 +3,7 @@
 # groundwater-book-figures
 
 [![Build Status](https://travis-ci.org/simpeg-research/groundwater-book-figures.svg?branch=master)](https://travis-ci.org/simpeg-research/groundwater-book-figures)
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/simpeg-research/groundwater-book-figures/master?filepath=index.ipynb)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/simpeg-research/groundwater-book-figures/master?filepath=notebooks/DC_currents.ipynb)
 [![License](https://img.shields.io/github/license/simpeg-research/groundwater-book-figures.svg)](https://github.com/simpeg-research/groundwater-book-figures/blob/master/LICENSE)
 [![SimPEG](https://img.shields.io/badge/powered%20by-SimPEG-blue.svg)](http://simpeg.xyz)
 
