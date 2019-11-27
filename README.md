@@ -8,7 +8,7 @@
 [![SimPEG](https://img.shields.io/badge/powered%20by-SimPEG-blue.svg)](http://simpeg.xyz)
 
 
-<img src="figures/borehole_DC_currents.png" width=40% align="middle">
+<img src="figures/borehole_DC_currents.png" width=60% align="middle">
 
 ## Summary
 
